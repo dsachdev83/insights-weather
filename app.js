@@ -25,7 +25,7 @@ var appEnvOpts = vcapLocal ? {
 } : {};
 var appEnv = cfenv.getAppEnv(appEnvOpts);
 
-var weatherCreds = appEnv.getServiceCreds("insights-weather-weatherinsights");
+var weatherCreds = appEnv.getServiceCreds("insights-weather-weatherinsights-ds1983");
 var weather = require('./lib/weather.js')(weatherCreds.url);
 
 app.get("/api/1/autocomplete", function (req, res) {
