@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBM-Bluemix/insights-weather.git"
+    "url": "https://github.com/dsachdev83/insights-weather.git"
   },
   "engines": {
     "node": "0.12.x"
@@ -29,7 +29,7 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/IBM-Bluemix/insights-weather/issues"
+    "url": "https://github.com/dsachdev83/insights-weather/issues"
   },
   "license": "Apache-2.0"
 }
