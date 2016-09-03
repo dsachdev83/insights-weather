@@ -1,9 +1,9 @@
 declared-services:
-  insights-weather-weatherinsights:
+  insights-weather-weatherinsights-ds1983:
     label: weatherinsights
     plan: Free-v2
 applications:
 - services:
-  - insights-weather-weatherinsights
-  name: insights-weather
+  - insights-weather-weatherinsights-ds1983
+  name: insights-weather-weatherinsights-ds1983
   memory: 256M
