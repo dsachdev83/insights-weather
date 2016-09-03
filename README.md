@@ -4,7 +4,7 @@
 
 This project provides a user interface to query the Weather Company Data for IBM Bluemix service.
 
-[![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/a15ae39863da63802a6babd1c8c67310/button.svg)](https://bluemix.net/deploy?repository=https://github.com/IBM-Bluemix/insights-weather.git)
+[![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/a15ae39863da63802a6babd1c8c67310/button.svg)](https://bluemix.net/deploy?repository=https://github.com/dsachdev83/insights-weather.git)
 
 ## Running the app on Bluemix
 
@@ -17,7 +17,7 @@ This project provides a user interface to query the Weather Company Data for IBM
 3. Clone the app to your local environment from your terminal using the following command
 
   ```
-  git clone https://github.com/IBM-Bluemix/insights-weather.git
+  git clone https://github.com/dsachdev83/insights-weather.git
   ```
 
 4. cd into this newly created directory
@@ -27,9 +27,9 @@ This project provides a user interface to query the Weather Company Data for IBM
 	```
     applications:
       - services:
-        - insights-weather-weatherinsights
-        name: insights-weather
-        host: insights-weather
+        - insights-weather-weatherinsights-ds1983
+        name: insights-weather-ds1983
+        host: insights-weather-ds1983
         memory: 256M
 	```
 
@@ -44,7 +44,7 @@ This project provides a user interface to query the Weather Company Data for IBM
 7. Create the Weather Company Data for IBM Bluemix service.
 
   ```
-  $ cf create-service weatherinsights Free-v2 insights-weather-weatherinsights
+  $ cf create-service weatherinsights Free-v2 insights-weather-weatherinsights-ds1983
   ```
 
 8. Push the application to Bluemix.
